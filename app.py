@@ -23,6 +23,7 @@ prompt=ChatPromptTemplate.from_messages(
 
 ## streamlit framework
 st.title("Langchain Demo With Gemma Model")
+st.write( st.secrets["LANGCHAIN_API_KEY"]=='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')
 input_text=st.text_input("What question you have in mind?")
 
 
